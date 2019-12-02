@@ -1,0 +1,13 @@
+
+body {
+    min-width: 1200px;
+}
+
+.header-bg {
+    width: 100%;
+    height: 1010px;
+    background-image: url("../img/Sections background/section-1(header).jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+}
