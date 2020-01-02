@@ -246,20 +246,22 @@ body {
 }
 
 .services-tabs-title-caret {
-  visibility: inherit;
+  visibility: hidden;
   position: absolute;
   top: 53px;
   left: 80px;
   font-size: 3rem;
   color: #18cfab;
+}
 
+.services-tabs-title-caret.visible {
+  visibility: visible;
 }
 
 .services-tabs-title.active {
   color: white;
   background-color: #18cfab;
   border: 1px solid #18cfab;
-  visibility: visible;
 }
 
 .services-tabs-content {
