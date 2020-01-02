@@ -9,28 +9,32 @@
 </head>
 <body>
 <section id="home">
-  <nav class="nav-container">
-    <div class="logo">
-      <a href="#" class="logo-link"><h3 class="img-logo">H</h3>
-      <h4 class="logo-text">the</h4></a>
-    </div>
-    <ul class="nav-menu-list">
-      <li class="nav-menu-item"><a class="nav-menu-link" href="#">home</a></li>
-      <li class="nav-menu-item"><a class="nav-menu-link" href="#">about</a></li>
-      <li class="nav-menu-item"><a class="nav-menu-link" href="#">skills</a></li>
-      <li class="nav-menu-item"><a class="nav-menu-link" href="#">service</a></li>
-      <li class="nav-menu-item"><a class="nav-menu-link" href="#">work</a></li>
-      <li class="nav-menu-item"><a class="nav-menu-link" href="#">testimo</a></li>
-      <li class="nav-menu-item"><a class="nav-menu-link" href="#"><i class="fas fa-search"></i></a></li>
+  <div class="nav-bg">
+    <nav class="nav-container">
+      <div class="logo">
+        <a href="#" class="logo-link"><h3 class="img-logo">H</h3>
+        <h4 class="logo-text">the</h4></a>
+      </div>
+      <ul class="nav-menu-list">
+        <li class="nav-menu-item"><a class="nav-menu-link" href="#">home</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-link" href="#">about</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-link" href="#">skills</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-link" href="#">service</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-link" href="#">work</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-link" href="#">testimo</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-link" href="#"><i class="fas fa-search"></i></a>
+        </li>
     </ul>
   </nav>
+  </div>
+
   <div class="header-container">
     <h2 class="header-text">The Ham is&nbsp<span class="text-green">Wordpress theme</span></h2>
     <h1 class="header-text-big">we are creative</h1>
     <h3 class="header-text-small">Just Buy And Enjoy These Awesome Features</h3>
     <div class="btn-container">
-      <a href="#" class="subscribe-btn">EXPLORE NOW</a>
-      <a href="#" class="articles-btn">purchase now</a>
+      <a href="#" class="explore-btn">EXPLORE NOW</a>
+      <a href="#" class="purchase-btn">purchase now</a>
     </div>
   </div>
 </section>
@@ -38,26 +42,26 @@
   <div class="options">
     <div class="options-item">
       <div class="options-item-content">
-        <img src="img/icon1.png" alt="icon1">
-        <p class="options-item-content text">Different theme option</p>
+        <img src="img/header_icon1.png" alt="icon1">
+        <p class="options-item-content-text">Different theme option</p>
       </div>
     </div>
     <div class="options-item">
       <div class="options-item-content">
-        <img src="img/icon2.png" alt="icon2">
-        <p class="options-item-content text">fully customizable</p>
+        <img src="img/header_icon2.png" alt="icon2">
+        <p class="options-item-content-text">fully customizable</p>
       </div>
     </div>
     <div class="options-item">
       <div class="options-item-content">
-        <img src="img/icon3.png" alt="icon3">
-        <p class="options-item-content text">unlimited support</p>
+        <img src="img/header_icon3.png" alt="icon3">
+        <p class="options-item-content-text">unlimited support</p>
       </div>
     </div>
     <div class="options-item">
       <div class="options-item-content">
-        <img src="img/icon4.png" alt="icon4">
-        <p class="options-item-content text">responsive all device</p>
+        <img src="img/header_icon4.png" alt="icon4">
+        <p class="options-item-content-text">responsive all device</p>
       </div>
     </div>
   </div>
@@ -65,26 +69,55 @@
     <h2 class="services-header">Our Services</h2>
     <div class="separator">
     </div>
-    <div class="services-tabs">
-      <ul>
-        <li class="services-tabs-item">Web Design</li>
-        <li class="services-tabs-item">Graphic Design</li>
-        <li class="services-tabs-item">Online Support</li>
-        <li class="services-tabs-item">App Design</li>
-        <li class="services-tabs-item">Online Marketing</li>
-        <li class="services-tabs-item">Seo Service</li>
+    <div class="services-tabs-wrapper">
+      <ul class="services-tabs">
+        <li class="services-tabs-title active">Web Design
+          <i class="fas fa-caret-down services-tabs-title-caret"></i>
+        </li>
+        <li class="services-tabs-title">Graphic Design</li>
+        <li class="services-tabs-title">Online Support</li>
+        <li class="services-tabs-title">App Design</li>
+        <li class="services-tabs-title">Online Marketing</li>
+        <li class="services-tabs-title">Seo Service</li>
       </ul>
-      <ul>
-        <li class="services-tabs-content"></li>
-        <li class="services-tabs-content"></li>
-        <li class="services-tabs-content"></li>
-        <li class="services-tabs-content"></li>
-        <li class="services-tabs-content"></li>
-        <li class="services-tabs-content"></li>
+      <ul class="service-tabs-data">
+        <li class="services-tabs-content open">
+            <img class= "services-tabs-img" src="img/Web-design.png" alt="Web-design">
+            <p class= "services-tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla vel, inventore dolores repudiandae eligendi? Maiores asperiores unde culpa repellendus nemo similique magnam alias facere hic iste, reiciendis debitis consequuntur dolor, dolores dolore obcaecati inventore cumque doloribus quasi delectus, enim a blanditiis sit! Distinctio alias facilis itaque quos officia nam qui unde iure, doloribus aliquid consequuntur, quae corporis ex dolores delectus quam voluptatum atque magni est, laudantium tempora repellendus id placeat molestiae!</p>
+        </li>
+        <li class="services-tabs-content">
+            <img class= "services-tabs-img" src="img/Web-design.png" alt="Web-design">
+            <p class= "services-tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla vel, inventore dolores repudiandae eligendi? Maiores asperiores unde culpa repellendus nemo similique magnam alias facere hic iste, reiciendis debitis consequuntur dolor, dolores dolore obcaecati inventore cumque doloribus quasi delectus, enim a blanditiis sit! Distinctio alias facilis itaque quos officia nam qui unde iure, doloribus aliquid consequuntur, quae corporis ex dolores delectus quam voluptatum atque magni est, laudantium tempora repellendus id placeat molestiae! Veritatis sit, ut inventore iure sapiente voluptates!</p>
+        </li>
+        <li class="services-tabs-content">
+            <img class= "services-tabs-img" src="img/Web-design.png" alt="Web-design">
+            <p class= "services-tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla vel, inventore dolores repudiandae eligendi? Maiores asperiores unde culpa repellendus nemo similique magnam alias facere hic iste, reiciendis debitis consequuntur dolor, dolores dolore obcaecati inventore cumque doloribus quasi delectus, enim a blanditiis sit!</p>
+        </li>
+        <li class="services-tabs-content">
+            <img class= "services-tabs-img" src="img/Web-design.png" alt="Web-design">
+            <p class= "services-tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla vel, inventore dolores repudiandae eligendi? Maiores asperiores unde culpa repellendus nemo similique magnam alias facere hic iste, reiciendis debitis consequuntur dolor, dolores dolore obcaecati inventore cumque doloribus quasi delectus, enim a blanditiis sit! Distinctio alias facilis itaque quos officia nam qui unde iure, doloribus aliquid consequuntur, quae corporis ex dolores delectus quam voluptatum atque magni est!</p>
+        </li>
+        <li class="services-tabs-content">
+            <img class= "services-tabs-img" src="img/Web-design.png" alt="Web-design">
+            <p class= "services-tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla vel, inventore dolores repudiandae eligendi? Maiores asperiores unde culpa repellendus nemo similique magnam alias facere hic iste, reiciendis debitis consequuntur dolor, dolores dolore obcaecati inventore cumque doloribus quasi delectus, enim a blanditiis sit! Distinctio alias facilis itaque quos officia nam qui unde iure.</p>
+        </li>
+        <li class="services-tabs-content">
+            <img class= "services-tabs-img" src="img/Web-design.png" alt="Web-design">
+            <p class= "services-tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nulla vel, inventore dolores repudiandae eligendi? Maiores asperiores unde culpa repellendus nemo similique magnam alias facere hic iste, reiciendis debitis consequuntur dolor, dolores dolore obcaecati inventore cumque doloribus quasi delectus, enim a blanditiis sit! Distinctio alias facilis itaque quos officia nam qui unde iure, doloribus aliquid consequuntur.</p>
+        </li>
       </ul>
     </div>
   </div>
 </section>
+<section id="purchase">
+  <div class="purchase-container">
+    <h2 class="purchase-header">Everything is ready. just buy and install now</h2>
+    <p class="purchase-text">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you</p>
+    <button class="explore-btn">purchase now</button>
+  </div>
+</section>
 <script src="https://kit.fontawesome.com/7d7e199094.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
