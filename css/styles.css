@@ -11,13 +11,13 @@ body {
 #home {
   width: 100%;
   height: 1010px;
-  background-size: cover;
   background: rgba(255, 255, 255, 0.2) url("../img/Sections background/section-1(header).jpg") no-repeat fixed top;
+  background-size: cover; 
   background-blend-mode: lighten;
 }
 
 .nav-bg {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(15, 15, 0, 0.25);
   background-size: cover;
 }
 
@@ -88,7 +88,7 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #9d9c9b;
+  color: #b8b8b8;
   height: 100%;
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 .explore-btn, .purchase-btn {
-  display: block;
+  position: relative;
   box-sizing: border-box;
   padding: 23px;
   margin: 14px;
@@ -146,12 +146,19 @@ body {
   font-size: 0.81rem;
   color: white;
   border-radius: 5px;
+  border: none;
   border-top: 4px solid white;
   text-align: center;
   text-transform: uppercase;
   background-color: #18cfab;
   cursor: pointer;
+  outline: none;
 }
+
+.explore-btn.onclick, .purchase-btn.onclick {
+  border-top: none;
+}
+
 .purchase-btn {
   background-color: #00cbf6;
 }
@@ -206,6 +213,7 @@ body {
   text-align: center;
   font-size: 2.25rem;
   font-weight: 400;
+  color: #4e4e4e;
 }
 
 .separator {
@@ -229,7 +237,7 @@ body {
 
 .services-tabs, .service-tabs-data {
   display: flex;
-  list-style: none;
+  margin-top: 5px;
   padding-left: 0;
 }
 
@@ -248,7 +256,7 @@ body {
 .services-tabs-title-caret {
   visibility: hidden;
   position: absolute;
-  top: 53px;
+  top: 50px;
   left: 80px;
   font-size: 3rem;
   color: #18cfab;
@@ -289,23 +297,24 @@ body {
 }
 
 #purchase {
-  position: relative;
+display: flex;
+justify-content: center;
   margin-top: 102px;
   width: 100%;
   height: 474px;
+  background: rgba(0, 0, 0, 0.7) url("../img/Sections background/section-2.jpg") no-repeat fixed bottom;
   background-size: cover;
-  background: rgba(0, 0, 0, 0.7) url("../img/Sections background/section-2.jpg") no-repeat fixed top;
   background-blend-mode: darken;
 }
 
 .purchase-container {
+  margin-top: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .purchase-header {
-  margin-top: 126px;
   color: #18cfab;
   font-size: 2.5rem;
   font-weight: 600;
@@ -313,6 +322,6 @@ body {
 }
 
 .purchase-text {
-  margin: 0 0 75px;
+  margin: 0 0 60px;
   color: #ccc;
 }

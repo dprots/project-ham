@@ -6,3 +6,13 @@ $('.services-tabs-title').click(function() {
   $('i', this).addClass('visible');
   $(this).addClass('active');
 });
+
+$('button').mousedown(function() {
+	$(this).addClass('onclick');
+    $(this).animate({'top':'-2px'}, 100);
+});
+
+$('button').mouseup(function() {
+	$('button').removeClass('onclick');
+ 	$(this).animate({'top':'2px'}, 100);
+ });
